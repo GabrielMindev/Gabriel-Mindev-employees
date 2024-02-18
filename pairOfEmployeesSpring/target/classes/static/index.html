@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Pair Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h2>Employee Pair Analyzer</h2>
+    <form id="uploadForm" action="/upload" method="post" enctype="multipart/form-data">
+        <label for="file">Choose a CSV file:</label>
+        <input type="file" id="file" name="file" accept=".csv" required>
+        <button type="submit">Analyze File</button>
+    </form>
+    <div id="resultTableContainer">
+
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
